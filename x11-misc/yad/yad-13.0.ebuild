@@ -40,18 +40,18 @@ src_configure() {
 		--enable-icon-browser
 	}
 
-	src_compile() {
-		emake
-		default
-	}
+src_compile() {
+	emake
+	default
+}
 
-	src_install() {
-		emake DESTDIR="${D}" install
-	}
+src_install() {
+	emake DESTDIR="${D}" install
+}
 
-	pkg_postinst() {
-		xdg_icon_cache_update
-	}
+pkg_postinst() {
+	xdg_icon_cache_update
+}
 
 pkg_postrm() {
 		xdg_icon_cache_update
