@@ -9,7 +9,7 @@ MY_BUILDID="${PV##*.}"
 MY_VER="${MY_KVER}-${MY_BUILDID}.el${RHEL_VER}"
 MY_NAME="centos-stream-${RHEL_VER}-kernel-${MY_VER}"
 
-DESCRIPTION="Linux kernel built with Gentoo patches"
+DESCRIPTION="RHEL${RHEL_VER} Linux kernel"
 HOMEPAGE="
 	https://gitlab.com/redhat/centos-stream/src/kernel/centos-stream-${RHEL_VER}
 	https://www.kernel.org/
