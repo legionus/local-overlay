@@ -18,7 +18,7 @@ fi
 
 LICENSE="GPL-3+"
 SLOT="0"
-IUSE="+libelf +zlib +bzip2 +lzma +zstd +man bootconfig ucode plymouth lvm luks multipath mdadm iscsi sshfs smartcard zfs"
+IUSE="+libelf +zlib +bzip2 +lzma +zstd +man bootconfig +ucode plymouth lvm luks multipath mdadm iscsi sshfs smartcard zfs"
 
 DEPEND="
 	app-arch/tar
