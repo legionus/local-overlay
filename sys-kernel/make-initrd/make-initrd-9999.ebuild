@@ -64,9 +64,8 @@ RDEPEND="${DEPEND}"
 
 BDEPEND="
 	dev-util/intltool
-	sys-apps/help2man
-	sys-devel/autoconf
-	sys-devel/automake
+	dev-build/autoconf
+	dev-build/automake
 	sys-devel/bison
 	sys-devel/flex
 	virtual/pkgconfig
@@ -82,7 +81,6 @@ src_configure() {
 		--with-bootdir=${EPREFIX}/boot \
 		--with-runtimedir=${EPREFIX}/usr/$(get_abi_LIBDIR)/initramfs \
 		--libexecdir=${EPREFIX}/usr/libexec \
-		--with-kbddir=${EPREFIX}/usr/share \
 		--with-imagename='initramfs-$(KERNEL)$(IMAGE_SUFFIX).img' \
 		--with-busybox \
 		--with-libelf=$(usex libelf) \
