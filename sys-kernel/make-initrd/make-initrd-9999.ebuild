@@ -28,7 +28,7 @@ DEPEND="
 	sys-apps/grep
 	sys-apps/kmod
 	sys-apps/util-linux
-	sys-devel/make
+	dev-build/make
 	virtual/udev
 	net-libs/libtirpc
 	libelf? ( dev-libs/elfutils )
