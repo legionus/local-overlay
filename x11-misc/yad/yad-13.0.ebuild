@@ -20,8 +20,8 @@ DEPEND="
 RDEPEND="${DEPEND}"
 
 BDEPEND="
-	sys-devel/autoconf
-	sys-devel/automake
+	dev-build/autoconf
+	dev-build/automake
 	dev-util/intltool
 	virtual/pkgconfig
 	x11-libs/gtk+:3
