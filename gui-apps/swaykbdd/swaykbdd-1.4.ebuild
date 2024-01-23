@@ -15,7 +15,7 @@ KEYWORDS="amd64"
 
 BDEPEND="
 	dev-libs/json-c
-	dev-util/meson
+	dev-build/meson
 	virtual/pkgconfig
 "
 
