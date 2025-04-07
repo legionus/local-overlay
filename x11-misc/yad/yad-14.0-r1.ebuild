@@ -12,7 +12,6 @@ SRC_URI="https://github.com/v1cont/${PN}/archive/refs/tags/v${PV}.tar.gz -> ${P}
 LICENSE="GPL-3+"
 SLOT="0"
 KEYWORDS="amd64"
-IUSE="html sourceview"
 
 DEPEND="
 	x11-libs/gtk+:3
@@ -40,7 +39,7 @@ src_configure() {
 		--with-rgb=/usr/share/X11/rgb.txt \
 		--enable-icon-browser \
 		#
-	}
+}
 
 src_compile() {
 	emake
@@ -56,5 +55,5 @@ pkg_postinst() {
 }
 
 pkg_postrm() {
-		xdg_icon_cache_update
+	xdg_icon_cache_update
 }

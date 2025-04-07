@@ -36,6 +36,7 @@
 		<flag name="ukify">Enable systemd-ukify</flag>
 		<flag name="vanilla">Disable Gentoo-specific behavior and compatibility quirks</flag>
 		<flag name="xkb">Depend on <pkg>x11-libs/libxkbcommon</pkg> to allow logind to control the X11 keymap</flag>
+		<flag name="skip-check-kernel">Disable Gentoo-specific kernel checks</flag>
 	</use>
 	<upstream>
 		<remote-id type="github">systemd/systemd</remote-id>

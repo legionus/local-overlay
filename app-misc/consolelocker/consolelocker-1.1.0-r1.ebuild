@@ -16,9 +16,9 @@ DEPEND="sys-apps/kbd"
 RDEPEND="${DEPEND}"
 
 src_compile() {
-        emake
+	emake
 }
 
 src_install() {
-        emake DESTDIR="${D}" install
+	emake DESTDIR="${D}" install
 }

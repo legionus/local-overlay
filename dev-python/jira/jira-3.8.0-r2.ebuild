@@ -4,17 +4,17 @@
 EAPI=8
 
 DISTUTILS_USE_PEP517=setuptools
-PYTHON_COMPAT=( python3_11 )
+PYTHON_COMPAT=( python3_{10..13} )
 
 inherit distutils-r1 pypi
 
-DESCRIPTION=""
+DESCRIPTION="Python library for interacting with the JIRA REST API"
 HOMEPAGE="
 	https://pypi.org/project/jira/
 	https://github.com/pycontribs/jira
 "
 
-LICENSE=""
+LICENSE="BSD-2"
 SLOT="0"
 KEYWORDS="~amd64"
 

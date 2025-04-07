@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<name>Alexey Gladkov</name>
+		<email>gladkov.alexey@gmail.com</email>
+	</maintainer>
+	<upstream>
+		<remote-id type="github">v1cont/yad</remote-id>
+	</upstream>
+</pkgmetadata>
